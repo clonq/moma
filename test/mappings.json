@@ -19,6 +19,14 @@
 		"mappings": {
 			"field1_name": "field1_out"
 		}
+	},
+	"m4": {
+		"mappings": {
+			"field1_name": "field1_out",
+			"field2_name": "field2_out",
+			"field3_name": "field3_out",
+			"field4_name": "field4_out"
+		}
 	}
 
 }

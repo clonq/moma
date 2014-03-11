@@ -17,6 +17,18 @@ describe('smoke tests', function(){
 			out.should.have.property('field1_out');
 			out['field1_out'].should.equal('field1_value')
 		});
+		it('should map models with multiple fields', function(){
+			var out = moma.map(data.test2, moma.mappings['m4'])
+			should.exist(out)
+			out.should.have.property('field1_out');
+			out['field1_out'].should.equal('field1_value')
+			out.should.have.property('field2_out');
+			out['field2_out'].should.equal('field2_value')
+			out.should.have.property('field3_out');
+			out['field3_out'].should.equal('field3_value')
+			out.should.have.property('field4_out');
+			out['field4_out'].should.equal('field4_value')
+		});
 		it('should block unmapped fields by default', function(){
 			var out = moma.map(data.test1, moma.mappings['m1'])
 			should.exist(out)
