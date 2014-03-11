@@ -1,0 +1,27 @@
+{
+  "name": "moma",
+  "description": "Model Mapper",
+  "version": "0.1.1",
+  "author": {
+    "name": "Ovi Comes"
+  },
+  "license": "MIT",
+  "keywords": [
+    "model",
+    "mapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clonq/moma"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0"
+  },
+  "readme": "Simple model mapper for node.js",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"m1": {
+		"mappings": {
+			"field1_name": "field1_out"
+		}
+	},
+	"m2": {
+		"meta":{
+			"unmapped_fields": "block"
+		},
+		"mappings": {
+			"field1_name": "field1_out"
+		}
+	},
+	"m3": {
+		"meta":{
+			"unmapped_fields": "allow"
+		},
+		"mappings": {
+			"field1_name": "field1_out"
+		}
+	}
+
+}
