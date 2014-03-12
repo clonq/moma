@@ -49,7 +49,7 @@ var moma = require('moma').middleware();
 app.use(moma);
 ...
 ```
-And your `req.body` will look lik ethis:
+And your `req.body` will look like this:
 ```
 {
 	"Username":"joe",
