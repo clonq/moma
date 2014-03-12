@@ -42,9 +42,9 @@ For this to work though you need a mapping file like this:
 	}
 }
 ```
-Or even better, if you use moma as a middleware, just
+Or even better, if you use moma as a middleware, just do
 ```
-var moma = require('../moma').middleware();
+var moma = require('moma').middleware();
 ...
 app.use(moma);
 ...
