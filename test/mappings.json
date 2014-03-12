@@ -1,4 +1,9 @@
 {
+	"global": {
+		"mappings": {
+			"field99_name": "global99_out"
+		}
+	},
 	"m1": {
 		"mappings": {
 			"field1_name": "field1_out"
@@ -27,6 +32,10 @@
 			"field3_name": "field3_out",
 			"field4_name": "field4_out"
 		}
+	},
+	"m5": {
+		"mappings": {
+			"obj1.field1_1_name": "field1_1_out"
+		}
 	}
-
 }
