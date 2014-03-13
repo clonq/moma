@@ -56,6 +56,6 @@ And your `req.body` will look like this:
 	"Email":"joe@somecompany.com"
 }
 ```
-This is especially useful when the HTML is developed by another team, the field names might change and you don't wnat to change your code.
+This is especially useful when the HTML is developed by another team, the field names might change and you don't want to change your code.
 
 Similarly when exposing a REST service, you might want to filter out some of the fields extracted from the database. Also you may want to shorten/rename some fields in the JSON output. Moma will help you with that too.
